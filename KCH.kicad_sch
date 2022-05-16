@@ -1360,13 +1360,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ad3e40f3-e75b-40d9-9e21-89f2fdfd85a7)
   )
-  (text "Serial Interface" (at 132.08 106.045 0)
+  (text "Serial Interface" (at 135.89 111.125 0)
     (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
     (uuid c2e8916f-a918-4e7a-808b-8b389d3bd9ff)
   )
   (text "HAT EEPROM" (at 206.375 27.305 0)
     (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
     (uuid ca978588-8a74-4836-b84e-770a97696ba1)
+  )
+  (text "Not populated as standard" (at 141.605 131.445 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dc3fed0d-ef50-463d-ad66-62103c87a94b)
   )
 
   (label "ID_SD_EEPROM" (at 34.29 120.65 0)
@@ -1826,7 +1830,7 @@
     (uuid 4b63b8f6-4ecc-4e17-ba18-3581427d8196)
     (property "Reference" "J1" (id 0) (at 29.845 30.48 0))
     (property "Value" "CTBP9550/2" (id 1) (at 29.845 33.02 0))
-    (property "Footprint" "" (id 2) (at 29.845 36.83 0)
+    (property "Footprint" "project_footprints:CTBP9550-2" (id 2) (at 29.845 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 29.845 36.83 0)
@@ -2008,10 +2012,14 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Male") (at 161.925 118.745 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid de242990-129c-41d4-9c48-35043f997db4)
-    (property "Reference" "J4" (id 0) (at 161.29 107.95 0))
-    (property "Value" "Serial" (id 1) (at 161.29 110.49 0))
+    (property "Reference" "J4" (id 0) (at 163.83 118.7449 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Serial" (id 1) (at 163.83 121.2849 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 161.925 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2539,16 +2547,16 @@
       (reference "D16") (unit 1) (value "Green") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/b4b3b701-a899-490d-ae85-bed6fac6ac68/914985c9-f53c-4071-8ac7-72deb7281b12"
-      (reference "D17") (unit 1) (value "FM-B2020RGBA-HG") (footprint "")
+      (reference "D17") (unit 1) (value "FM-B2020RGBA-HG") (footprint "project_footprints:FM-B2020RGBA-HG")
     )
     (path "/b4b3b701-a899-490d-ae85-bed6fac6ac68/6794becf-4cea-44b0-91d3-a7f1be26802d"
-      (reference "D18") (unit 1) (value "FM-B2020RGBA-HG") (footprint "")
+      (reference "D18") (unit 1) (value "FM-B2020RGBA-HG") (footprint "project_footprints:FM-B2020RGBA-HG")
     )
     (path "/b4b3b701-a899-490d-ae85-bed6fac6ac68/206519a6-2a7f-4f8e-a79d-f8e00231e9d2"
-      (reference "D19") (unit 1) (value "FM-B2020RGBA-HG") (footprint "")
+      (reference "D19") (unit 1) (value "FM-B2020RGBA-HG") (footprint "project_footprints:FM-B2020RGBA-HG")
     )
     (path "/b4b3b701-a899-490d-ae85-bed6fac6ac68/661f2887-316f-4c60-94a5-48a6f8725a92"
-      (reference "D20") (unit 1) (value "FM-B2020RGBA-HG") (footprint "")
+      (reference "D20") (unit 1) (value "FM-B2020RGBA-HG") (footprint "project_footprints:FM-B2020RGBA-HG")
     )
     (path "/b972d901-8d26-4685-bdf5-467543b91602/b6f313c7-2466-491b-91f3-2cb16f51eb47"
       (reference "F1") (unit 1) (value "2A") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2566,7 +2574,7 @@
       (reference "H4") (unit 1) (value "3mm_Mounting_Hole") (footprint "project_footprints:NPTH_3mm_ID")
     )
     (path "/4b63b8f6-4ecc-4e17-ba18-3581427d8196"
-      (reference "J1") (unit 1) (value "CTBP9550/2") (footprint "")
+      (reference "J1") (unit 1) (value "CTBP9550/2") (footprint "project_footprints:CTBP9550-2")
     )
     (path "/05b42443-4e19-4534-a6d5-3fd419f2f9c9"
       (reference "J2") (unit 1) (value "Write EEPROM") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -2578,7 +2586,7 @@
       (reference "J4") (unit 1) (value "Serial") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/b972d901-8d26-4685-bdf5-467543b91602/7beb067c-0b7f-4f24-a971-20f7e9559c78"
-      (reference "L1") (unit 1) (value "10uH") (footprint "")
+      (reference "L1") (unit 1) (value "10uH") (footprint "project_footprints:MWSA0603")
     )
     (path "/b972d901-8d26-4685-bdf5-467543b91602/8e325b52-0146-4b64-b3bb-5217b6f59bd9"
       (reference "Q1") (unit 1) (value "AO3407A") (footprint "Package_TO_SOT_SMD:SOT-23")
