@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Raspberry Pi HAT")
-    (date "2022-05-14")
-    (rev "S1.1")
+    (title "KCH - Raspberry Pi HAT")
+    (date "2022-05-17")
+    (rev "S2")
     (company "Student Robotics")
     (comment 1 "Individual UI LEDs")
   )
