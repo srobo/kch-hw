@@ -1,0 +1,1361 @@
+#VRML V2.0 utf8
+
+
+Group {
+  children 
+    DEF o0 Group {
+      children 
+        DEF o1 Group {
+          children 
+            DEF o2 Transform {
+              translation -0 -0 -0
+              rotation 0 0 1  0
+              scale 1 1 1
+              scaleOrientation 0 0 1  0
+              center 0 0 0
+              children 
+                DEF o3 Group {
+                  children [ 
+                    DEF o4 Group {
+                      children 
+                        DEF o5 Transform {
+                          translation 0 0 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children [ 
+                            DEF o6 Group {
+                              children 
+                                DEF o7 Transform {
+                                  translation 0 0 0
+                                  rotation 0 0 1  0
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o8 Group {
+                                      children 
+                                        DEF o9 Transform {
+                                          scale 0.1846 0.1846 0.1846
+                                          children [ 
+                                            DEF o10 Group {
+                                              children [ 
+                                                DEF o11 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    DEF o12 Coordinate {
+                                                      point [ 25 0 0,
+                                                          -25 0 0 ]
+
+                                                    }
+                                                    coordIndex [ 0, 1, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o13 Transform {
+                                                  translation -24.5 0.83333331 0
+                                                  children 
+                                                    DEF o14 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "X_Axis"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o15 Group {
+                                              children 
+                                                DEF o16 Group {
+                                                  children [ 
+                                                    DEF o17 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o12
+                                                        coordIndex [ 0, 1, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o18 Transform {
+                                                      translation -24.5 0.83333331 0
+                                                      children 
+                                                        DEF o19 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "X_Axis"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o20 Group {
+                              children 
+                                DEF o21 Transform {
+                                  translation 0 0 0
+                                  rotation 0.57735026 0.57735026 0.57735026  2.0943949
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o22 Group {
+                                      children 
+                                        DEF o23 Transform {
+                                          scale 0.17160001 0.17160001 0.17160001
+                                          children [ 
+                                            DEF o24 Group {
+                                              children [ 
+                                                DEF o25 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    USE o12
+                                                    coordIndex [ 0, 1, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o26 Transform {
+                                                  translation -24.5 0.83333331 0
+                                                  children 
+                                                    DEF o27 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "Y_Axis"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o28 Group {
+                                              children 
+                                                DEF o29 Group {
+                                                  children [ 
+                                                    DEF o30 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o12
+                                                        coordIndex [ 0, 1, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o31 Transform {
+                                                      translation -24.5 0.83333331 0
+                                                      children 
+                                                        DEF o32 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "Y_Axis"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o33 Group {
+                              children 
+                                DEF o34 Transform {
+                                  translation 0 0 0
+                                  rotation 0.57735026 0.57735026 0.57735026  4.1887903
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o35 Group {
+                                      children 
+                                        DEF o36 Transform {
+                                          scale 0.17160001 0.17160001 0.17160001
+                                          children [ 
+                                            DEF o37 Group {
+                                              children [ 
+                                                DEF o38 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    USE o12
+                                                    coordIndex [ 0, 1, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o39 Transform {
+                                                  translation -24.5 0.83333331 0
+                                                  children 
+                                                    DEF o40 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "Z_Axis"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o41 Group {
+                                              children 
+                                                DEF o42 Group {
+                                                  children [ 
+                                                    DEF o43 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o12
+                                                        coordIndex [ 0, 1, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o44 Transform {
+                                                      translation -24.5 0.83333331 0
+                                                      children 
+                                                        DEF o45 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "Z_Axis"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o46 Group {
+                              children 
+                                DEF o47 Transform {
+                                  translation 0 0 0
+                                  rotation 0 0 1  0
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o48 Group {
+                                      children 
+                                        DEF o49 Transform {
+                                          scale 0.1846 0.1846 0.1846
+                                          children [ 
+                                            DEF o50 Group {
+                                              children [ 
+                                                DEF o51 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    DEF o52 Coordinate {
+                                                      point [ 25 25 0,
+                                                          25 -25 0,
+                                                          -25 -25 0,
+                                                          -25 25 0 ]
+
+                                                    }
+                                                    coordIndex [ 0, 1, 2, 3, 0, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o53 Transform {
+                                                  translation -24.5 22.5 0
+                                                  children 
+                                                    DEF o54 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "XY_Plane"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o55 Group {
+                                              children 
+                                                DEF o56 Group {
+                                                  children [ 
+                                                    DEF o57 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o52
+                                                        coordIndex [ 0, 1, 2, 3, 0, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o58 Transform {
+                                                      translation -24.5 22.5 0
+                                                      children 
+                                                        DEF o59 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "XY_Plane"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o60 Group {
+                              children 
+                                DEF o61 Transform {
+                                  translation 0 0 0
+                                  rotation 1 0 0  1.5707964
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o62 Group {
+                                      children 
+                                        DEF o63 Transform {
+                                          scale 0.1846 0.1846 0.1846
+                                          children [ 
+                                            DEF o64 Group {
+                                              children [ 
+                                                DEF o65 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    USE o52
+                                                    coordIndex [ 0, 1, 2, 3, 0, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o66 Transform {
+                                                  translation -24.5 22.5 0
+                                                  children 
+                                                    DEF o67 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "XZ_Plane"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o68 Group {
+                                              children 
+                                                DEF o69 Group {
+                                                  children [ 
+                                                    DEF o70 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o52
+                                                        coordIndex [ 0, 1, 2, 3, 0, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o71 Transform {
+                                                      translation -24.5 22.5 0
+                                                      children 
+                                                        DEF o72 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "XZ_Plane"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            },
+                              
+                            DEF o73 Group {
+                              children 
+                                DEF o74 Transform {
+                                  translation 0 0 0
+                                  rotation 0.57735026 0.57735026 0.57735026  2.0943949
+                                  scale 1 1 1
+                                  scaleOrientation 0 0 1  0
+                                  center 0 0 0
+                                  children 
+                                    DEF o75 Group {
+                                      children 
+                                        DEF o76 Transform {
+                                          scale 0.17160001 0.17160001 0.17160001
+                                          children [ 
+                                            DEF o77 Group {
+                                              children [ 
+                                                DEF o78 Shape {
+                                                  appearance 
+                                                  Appearance {
+                                                    material 
+                                                    Material {
+                                                      diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                    }
+
+                                                  }
+                                                  geometry 
+                                                  IndexedLineSet {
+                                                    coord 
+                                                    USE o52
+                                                    coordIndex [ 0, 1, 2, 3, 0, -1 ]
+
+                                                  }
+
+                                                },
+                                                  
+                                                DEF o79 Transform {
+                                                  translation -24.5 22.5 0
+                                                  children 
+                                                    DEF o80 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      Text {
+                                                        string "YZ_Plane"
+                                                        fontStyle 
+                                                        FontStyle {
+                                                          size 2.5
+
+                                                        }
+                                                        length -1
+
+                                                      }
+
+                                                    }
+
+                                                } ]
+
+                                            },
+                                              
+                                            DEF o81 Group {
+                                              children 
+                                                DEF o82 Group {
+                                                  children [ 
+                                                    DEF o83 Shape {
+                                                      appearance 
+                                                      Appearance {
+                                                        material 
+                                                        Material {
+                                                          diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                        }
+
+                                                      }
+                                                      geometry 
+                                                      IndexedLineSet {
+                                                        coord 
+                                                        USE o52
+                                                        coordIndex [ 0, 1, 2, 3, 0, -1 ]
+
+                                                      }
+
+                                                    },
+                                                      
+                                                    DEF o84 Transform {
+                                                      translation -24.5 22.5 0
+                                                      children 
+                                                        DEF o85 Shape {
+                                                          appearance 
+                                                          Appearance {
+                                                            material 
+                                                            Material {
+                                                              diffuseColor 0.19607843 0.58823532 0.98039216
+
+                                                            }
+
+                                                          }
+                                                          geometry 
+                                                          Text {
+                                                            string "YZ_Plane"
+                                                            fontStyle 
+                                                            FontStyle {
+                                                              size 2.5
+
+                                                            }
+                                                            length -1
+
+                                                          }
+
+                                                        }
+
+                                                    } ]
+
+                                                }
+
+                                            } ]
+
+                                        }
+
+                                    }
+
+                                }
+
+                            } ]
+
+                        }
+
+                    },
+                      
+                    DEF o86 Group {
+                      children 
+                        DEF o87 Transform {
+                          translation 0 0 0.2
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children 
+                            DEF o88 Group {
+
+                            }
+
+                        }
+
+                    },
+                      
+                    DEF o89 Group {
+                      children 
+                        DEF o90 Transform {
+                          translation 0 0 0.2
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o91 Group {
+                      children 
+                        DEF o92 Transform {
+                          translation -3.55 -1.5 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    },
+                      
+                    DEF o93 Group {
+                      children 
+                        DEF o94 Transform {
+                          translation -3.55 -1.5 0
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+                          children 
+                            DEF o95 Group {
+                              children [ 
+                                DEF o96 Group {
+                                  children 
+                                    DEF o97 Shape {
+                                      appearance 
+                                      Appearance {
+                                        material 
+                                        Material {
+                                          emissiveColor 0.098039217 0.098039217 0.098039217
+
+                                        }
+
+                                      }
+                                      geometry 
+                                      PointSet {
+                                        coord 
+                                        DEF o98 Coordinate {
+                                          point [ 0.2 -0.2 0.2,
+                                              0.2 0 0.2,
+                                              0.2 -0.2 3.2,
+                                              0.2 3.2 3.2,
+                                              0.2 3.2 0.2,
+                                              0.2 3 0.2,
+                                              0.2 3 1.7,
+                                              0.2 0 1.7,
+                                              0.2 -0.2 0.2,
+                                              0.24011534 -0.55603349 0.2,
+                                              0.35844982 -0.89421397 0.2,
+                                              0.54906964 -1.1975837 0.2,
+                                              0.80241632 -1.4509304 0.2,
+                                              1.105786 -1.6415502 0.2,
+                                              1.4439665 -1.7598847 0.2,
+                                              1.8 -1.8 0.2,
+                                              0.2 0 0.2,
+                                              2.2 0 0.2,
+                                              2.2 3 0.2,
+                                              0.2 3 0.2,
+                                              0.2 3.2 0.2,
+                                              1.8 4.8000002 0.2,
+                                              1.4439665 4.7598848 0.2,
+                                              1.105786 4.6415501 0.2,
+                                              0.80241632 4.4509306 0.2,
+                                              0.54906964 4.1975837 0.2,
+                                              0.35844982 3.8942139 0.2,
+                                              0.24011534 3.5560336 0.2,
+                                              5.3000002 4.8000002 0.2,
+                                              6.9000001 3.2 0.2,
+                                              6.8598847 3.5560336 0.2,
+                                              6.74155 3.8942139 0.2,
+                                              6.5509305 4.1975837 0.2,
+                                              6.2975836 4.4509306 0.2,
+                                              5.9942141 4.6415501 0.2,
+                                              5.6560335 4.7598848 0.2,
+                                              6.9000001 3 0.2,
+                                              4.9000001 3 0.2,
+                                              4.9000001 -4.4408921e-016 0.2,
+                                              6.9000001 -8.8817842e-016 0.2,
+                                              6.9000001 -0.2 0.2,
+                                              5.3000002 -1.8 0.2,
+                                              5.6560335 -1.7598847 0.2,
+                                              5.9942141 -1.6415502 0.2,
+                                              6.2975836 -1.4509304 0.2,
+                                              6.5509305 -1.1975837 0.2,
+                                              6.74155 -0.89421397 0.2,
+                                              6.8598847 -0.55603349 0.2,
+                                              2.2 0 0,
+                                              2.2 0 0.2,
+                                              0 0 0,
+                                              0 0 1.7,
+                                              0.2 0 1.7,
+                                              0.2 0 0.2,
+                                              0 3 1.7,
+                                              0.2 3 1.7,
+                                              0 0 1.7,
+                                              0.2 0 1.7,
+                                              2.2 3 0,
+                                              2.2 3 0.2,
+                                              0 3 0,
+                                              0 3 1.7,
+                                              0.2 3 1.7,
+                                              0.2 3 0.2,
+                                              1.8 4.8000002 0.2,
+                                              1.8 4.8000002 3.2,
+                                              1.4439665 4.7598848 3.2,
+                                              1.105786 4.6415501 3.2,
+                                              0.80241632 4.4509306 3.2,
+                                              0.54906964 4.1975837 3.2,
+                                              0.35844982 3.8942139 3.2,
+                                              0.24011534 3.5560336 3.2,
+                                              0.2 3.2 3.2,
+                                              0.2 3.2 0.2,
+                                              1.4439665 4.7598848 0.2,
+                                              1.105786 4.6415501 0.2,
+                                              0.80241632 4.4509306 0.2,
+                                              0.54906964 4.1975837 0.2,
+                                              0.35844982 3.8942139 0.2,
+                                              0.24011534 3.5560336 0.2,
+                                              0.2 -0.2 3.2,
+                                              0.2 3.2 3.2,
+                                              1.8 4.8000002 3.2,
+                                              1.4439665 4.7598848 3.2,
+                                              1.105786 4.6415501 3.2,
+                                              0.80241632 4.4509306 3.2,
+                                              0.54906964 4.1975837 3.2,
+                                              0.35844982 3.8942139 3.2,
+                                              0.24011534 3.5560336 3.2,
+                                              5.3000002 4.8000002 3.2,
+                                              6.9000001 3.2 3.2,
+                                              6.8598847 3.5560336 3.2,
+                                              6.74155 3.8942139 3.2,
+                                              6.5509305 4.1975837 3.2,
+                                              6.2975836 4.4509306 3.2,
+                                              5.9942141 4.6415501 3.2,
+                                              5.6560335 4.7598848 3.2,
+                                              6.9000001 -0.2 3.2,
+                                              5.3000002 -1.8 3.2,
+                                              5.6560335 -1.7598847 3.2,
+                                              5.9942141 -1.6415502 3.2,
+                                              6.2975836 -1.4509304 3.2,
+                                              6.5509305 -1.1975837 3.2,
+                                              6.74155 -0.89421397 3.2,
+                                              6.8598847 -0.55603349 3.2,
+                                              1.8 -1.8 3.2,
+                                              0.24011534 -0.55603349 3.2,
+                                              0.35844982 -0.89421397 3.2,
+                                              0.54906964 -1.1975837 3.2,
+                                              0.80241632 -1.4509304 3.2,
+                                              1.105786 -1.6415502 3.2,
+                                              1.4439665 -1.7598847 3.2,
+                                              0.2 -0.2 0.2,
+                                              0.2 -0.2 3.2,
+                                              0.24011534 -0.55603349 3.2,
+                                              0.35844982 -0.89421397 3.2,
+                                              0.54906964 -1.1975837 3.2,
+                                              0.80241632 -1.4509304 3.2,
+                                              1.105786 -1.6415502 3.2,
+                                              1.4439665 -1.7598847 3.2,
+                                              1.8 -1.8 3.2,
+                                              1.8 -1.8 0.2,
+                                              0.24011534 -0.55603349 0.2,
+                                              0.35844982 -0.89421397 0.2,
+                                              0.54906964 -1.1975837 0.2,
+                                              0.80241632 -1.4509304 0.2,
+                                              1.105786 -1.6415502 0.2,
+                                              1.4439665 -1.7598847 0.2,
+                                              5.3000002 -1.8 0.2,
+                                              5.3000002 -1.8 3.2,
+                                              1.8 -1.8 3.2,
+                                              1.8 -1.8 0.2,
+                                              5.3000002 -1.8 0.2,
+                                              5.3000002 -1.8 3.2,
+                                              5.6560335 -1.7598847 3.2,
+                                              5.9942141 -1.6415502 3.2,
+                                              6.2975836 -1.4509304 3.2,
+                                              6.5509305 -1.1975837 3.2,
+                                              6.74155 -0.89421397 3.2,
+                                              6.8598847 -0.55603349 3.2,
+                                              6.9000001 -0.2 3.2,
+                                              6.9000001 -0.2 0.2,
+                                              5.6560335 -1.7598847 0.2,
+                                              5.9942141 -1.6415502 0.2,
+                                              6.2975836 -1.4509304 0.2,
+                                              6.5509305 -1.1975837 0.2,
+                                              6.74155 -0.89421397 0.2,
+                                              6.8598847 -0.55603349 0.2,
+                                              6.9000001 3.2 0.2,
+                                              6.9000001 3 0.2,
+                                              6.9000001 3.2 3.2,
+                                              6.9000001 -0.2 3.2,
+                                              6.9000001 -0.2 0.2,
+                                              6.9000001 -8.8817842e-016 0.2,
+                                              6.9000001 -8.8817842e-016 1.7,
+                                              6.9000001 3 1.7,
+                                              4.9000001 -4.4408921e-016 2.9976022e-016,
+                                              4.9000001 -4.4408921e-016 0.2,
+                                              7.0999999 -8.8817842e-016 7.8825834e-016,
+                                              7.0999999 -8.8817842e-016 1.7,
+                                              6.9000001 -8.8817842e-016 1.7,
+                                              6.9000001 -8.8817842e-016 0.2,
+                                              4.9000001 -4.4408921e-016 2.9976022e-016,
+                                              4.9000001 -4.4408921e-016 0.2,
+                                              4.9000001 3 2.9976022e-016,
+                                              4.9000001 3 0.2,
+                                              4.9000001 3 2.9976022e-016,
+                                              4.9000001 3 0.2,
+                                              7.0999999 3 7.8825834e-016,
+                                              7.0999999 3 1.7,
+                                              6.9000001 3 1.7,
+                                              6.9000001 3 0.2,
+                                              6.9000001 3.2 0.2,
+                                              6.9000001 3.2 3.2,
+                                              6.8598847 3.5560336 3.2,
+                                              6.74155 3.8942139 3.2,
+                                              6.5509305 4.1975837 3.2,
+                                              6.2975836 4.4509306 3.2,
+                                              5.9942141 4.6415501 3.2,
+                                              5.6560335 4.7598848 3.2,
+                                              5.3000002 4.8000002 3.2,
+                                              5.3000002 4.8000002 0.2,
+                                              6.8598847 3.5560336 0.2,
+                                              6.74155 3.8942139 0.2,
+                                              6.5509305 4.1975837 0.2,
+                                              6.2975836 4.4509306 0.2,
+                                              5.9942141 4.6415501 0.2,
+                                              5.6560335 4.7598848 0.2,
+                                              1.8 4.8000002 0.2,
+                                              1.8 4.8000002 3.2,
+                                              5.3000002 4.8000002 3.2,
+                                              5.3000002 4.8000002 0.2,
+                                              2.2 0 0,
+                                              2.2 0 0.2,
+                                              2.2 3 0,
+                                              2.2 3 0.2,
+                                              0 0 0,
+                                              0 0 1.7,
+                                              0 3 0,
+                                              0 3 1.7,
+                                              0 0 0,
+                                              0 3 0,
+                                              2.2 0 0,
+                                              2.2 3 0,
+                                              7.0999999 3 1.7,
+                                              6.9000001 3 1.7,
+                                              7.0999999 -8.8817842e-016 1.7,
+                                              6.9000001 -8.8817842e-016 1.7,
+                                              7.0999999 -8.8817842e-016 7.8825834e-016,
+                                              7.0999999 -8.8817842e-016 1.7,
+                                              7.0999999 3 7.8825834e-016,
+                                              7.0999999 3 1.7,
+                                              7.0999999 -8.8817842e-016 7.8825834e-016,
+                                              7.0999999 3 7.8825834e-016,
+                                              4.9000001 -4.4408921e-016 2.9976022e-016,
+                                              4.9000001 3 2.9976022e-016,
+                                              0.2 -0.2 0.2,
+                                              0.2 0 0.2,
+                                              0.2 0 1.7,
+                                              0.2 3 1.7,
+                                              0.2 3 0.2,
+                                              0.2 3.2 0.2,
+                                              0.2 3.2 3.2,
+                                              0.2 -0.2 3.2,
+                                              1.8 -1.8 0.2,
+                                              5.3000002 -1.8 0.2,
+                                              6.9000001 -0.2 0.2,
+                                              6.9000001 -8.8817842e-016 0.2,
+                                              4.9000001 -3.9968028e-016 0.2,
+                                              4.9000001 3 0.2,
+                                              6.9000001 3 0.2,
+                                              6.9000001 3.2 0.2,
+                                              5.3000002 4.8000002 0.2,
+                                              1.8 4.8000002 0.2,
+                                              2.2 3 0.2,
+                                              2.2 0 0.2,
+                                              2.2 0 0,
+                                              0 0 1.7,
+                                              0 0 0,
+                                              0 3 1.7,
+                                              2.2 3 0,
+                                              0 3 0,
+                                              1.8 4.8000002 3.2,
+                                              5.3000002 4.8000002 3.2,
+                                              6.9000001 3.2 3.2,
+                                              6.9000001 -0.2 3.2,
+                                              5.3000002 -1.8 3.2,
+                                              1.8 -1.8 3.2,
+                                              6.9000001 3 1.7,
+                                              6.9000001 -8.4376949e-016 1.7,
+                                              4.9000001 -3.9968028e-016 2.9976022e-016,
+                                              7.0999999 -8.8817842e-016 1.7,
+                                              7.0999999 -8.8817842e-016 7.8825834e-016,
+                                              4.9000001 3 2.9976022e-016,
+                                              7.0999999 3 1.7,
+                                              7.0999999 3 7.8825834e-016 ]
+
+                                        }
+
+                                      }
+
+                                    }
+
+                                },
+                                  
+                                DEF o99 Group {
+                                  children 
+                                    DEF o100 Shape {
+                                      appearance 
+                                      Appearance {
+                                        material 
+                                        Material {
+                                          diffuseColor 0.098039217 0.098039217 0.098039217
+                                          shininess 1
+
+                                        }
+
+                                      }
+                                      geometry 
+                                      IndexedLineSet {
+                                        coord 
+                                        USE o98
+                                        coordIndex [ 0, 1, -1, 7, 1, -1, 7, 6,
+                                            -1, 6, 5, -1, 5, 4, -1, 4,
+                                            3, -1, 2, 3, -1, 0, 2, -1,
+                                            8, 9, 10, 11, 12, 13, 14, 15,
+                                            -1, 41, 15, -1, 41, 42, 43, 44,
+                                            45, 46, 47, 40, -1, 39, 40, -1,
+                                            39, 38, -1, 37, 38, -1, 36, 37,
+                                            -1, 29, 36, -1, 29, 30, 31, 32,
+                                            33, 34, 35, 28, -1, 21, 28, -1,
+                                            21, 22, 23, 24, 25, 26, 27, 20,
+                                            -1, 19, 18, -1, 18, 17, -1, 16,
+                                            17, -1, 48, 49, -1, 51, 52, -1,
+                                            50, 51, -1, 50, 48, -1, 54, 55,
+                                            -1, 56, 54, -1, 58, 59, -1, 60,
+                                            61, -1, 60, 58, -1, 64, 65, -1,
+                                            65, 66, 67, 68, 69, 70, 71, 72,
+                                            -1, 82, 89, -1, 90, 91, 92, 93,
+                                            94, 95, 96, 89, -1, 90, 97, -1,
+                                            98, 99, 100, 101, 102, 103, 104, 97,
+                                            -1, 98, 105, -1, 80, 106, 107, 108,
+                                            109, 110, 111, 105, -1, 121, 120, -1,
+                                            128, 129, -1, 141, 140, -1, 155, 149,
+                                            -1, 154, 155, -1, 154, 153, -1, 148,
+                                            150, -1, 156, 157, -1, 159, 160, -1,
+                                            158, 159, -1, 158, 156, -1, 164, 165,
+                                            -1, 162, 164, -1, 169, 170, -1, 168,
+                                            169, -1, 168, 166, -1, 181, 180, -1,
+                                            192, 194, -1, 196, 198, -1, 206, 204,
+                                            -1, 208, 210, -1 ]
+
+                                      }
+
+                                    }
+
+                                },
+                                  
+                                DEF o101 Group {
+                                  children 
+                                    DEF o102 Shape {
+                                      appearance 
+                                      Appearance {
+                                        material 
+                                        Material {
+
+                                        }
+
+                                      }
+                                      geometry 
+                                      IndexedFaceSet {
+                                        coord 
+                                        USE o98
+                                        coordIndex [ 1, 0, 7, -1, 6, 2, 3, -1,
+                                            6, 7, 2, -1, 4, 5, 6, -1,
+                                            0, 2, 7, -1, 3, 4, 6, -1,
+                                            38, 39, 40, -1, 38, 42, 41, -1,
+                                            38, 43, 42, -1, 38, 44, 43, -1,
+                                            38, 45, 44, -1, 38, 46, 45, -1,
+                                            38, 47, 46, -1, 38, 40, 47, -1,
+                                            17, 13, 12, -1, 17, 14, 13, -1,
+                                            17, 15, 14, -1, 17, 41, 15, -1,
+                                            17, 38, 41, -1, 37, 30, 29, -1,
+                                            37, 31, 30, -1, 37, 32, 31, -1,
+                                            37, 29, 36, -1, 33, 32, 37, -1,
+                                            11, 17, 12, -1, 34, 33, 37, -1,
+                                            10, 17, 11, -1, 35, 34, 37, -1,
+                                            9, 17, 10, -1, 28, 35, 37, -1,
+                                            8, 17, 9, -1, 16, 17, 8, -1,
+                                            18, 28, 37, -1, 18, 37, 38, -1,
+                                            18, 38, 17, -1, 20, 18, 19, -1,
+                                            21, 28, 18, -1, 22, 21, 18, -1,
+                                            27, 18, 20, -1, 26, 18, 27, -1,
+                                            23, 22, 18, -1, 25, 18, 26, -1,
+                                            24, 23, 18, -1, 24, 18, 25, -1,
+                                            53, 51, 50, -1, 53, 52, 51, -1,
+                                            50, 48, 53, -1, 48, 49, 53, -1,
+                                            55, 54, 56, -1, 55, 56, 57, -1,
+                                            61, 63, 60, -1, 62, 63, 61, -1,
+                                            58, 60, 63, -1, 59, 58, 63, -1,
+                                            64, 74, 65, -1, 65, 74, 66, -1,
+                                            66, 75, 67, -1, 74, 75, 66, -1,
+                                            67, 76, 68, -1, 75, 76, 67, -1,
+                                            68, 77, 69, -1, 69, 77, 70, -1,
+                                            76, 77, 68, -1, 77, 78, 70, -1,
+                                            70, 79, 71, -1, 71, 79, 72, -1,
+                                            78, 79, 70, -1, 79, 73, 72, -1,
+                                            101, 99, 100, -1, 103, 97, 102, -1,
+                                            104, 97, 103, -1, 102, 98, 101, -1,
+                                            101, 98, 99, -1, 97, 98, 102, -1,
+                                            91, 92, 90, -1, 110, 108, 109, -1,
+                                            111, 108, 110, -1, 105, 108, 111, -1,
+                                            93, 95, 92, -1, 94, 95, 93, -1,
+                                            108, 106, 107, -1, 105, 106, 108, -1,
+                                            96, 89, 95, -1, 90, 89, 97, -1,
+                                            92, 89, 90, -1, 97, 89, 98, -1,
+                                            95, 89, 92, -1, 105, 80, 106, -1,
+                                            80, 82, 81, -1, 98, 82, 105, -1,
+                                            89, 82, 98, -1, 105, 82, 80, -1,
+                                            83, 84, 82, -1, 82, 84, 81, -1,
+                                            81, 87, 88, -1, 81, 86, 87, -1,
+                                            84, 85, 81, -1, 81, 85, 86, -1,
+                                            112, 122, 113, -1, 113, 122, 114, -1,
+                                            114, 123, 115, -1, 122, 123, 114, -1,
+                                            115, 124, 116, -1, 123, 124, 115, -1,
+                                            116, 125, 117, -1, 117, 125, 118, -1,
+                                            124, 125, 116, -1, 125, 126, 118, -1,
+                                            118, 127, 119, -1, 119, 127, 120, -1,
+                                            126, 127, 118, -1, 127, 121, 120, -1,
+                                            131, 128, 129, -1, 131, 129, 130, -1,
+                                            132, 142, 133, -1, 133, 142, 134, -1,
+                                            134, 143, 135, -1, 142, 143, 134, -1,
+                                            135, 144, 136, -1, 143, 144, 135, -1,
+                                            136, 145, 137, -1, 137, 145, 138, -1,
+                                            144, 145, 136, -1, 145, 146, 138, -1,
+                                            138, 147, 139, -1, 139, 147, 140, -1,
+                                            146, 147, 138, -1, 147, 141, 140, -1,
+                                            149, 148, 155, -1, 151, 155, 150, -1,
+                                            154, 155, 151, -1, 152, 153, 154, -1,
+                                            148, 150, 155, -1, 151, 152, 154, -1,
+                                            159, 161, 158, -1, 160, 161, 159, -1,
+                                            156, 158, 161, -1, 157, 156, 161, -1,
+                                            162, 163, 164, -1, 164, 163, 165, -1,
+                                            171, 169, 168, -1, 171, 170, 169, -1,
+                                            168, 166, 171, -1, 166, 167, 171, -1,
+                                            172, 182, 173, -1, 173, 182, 174, -1,
+                                            174, 183, 175, -1, 182, 183, 174, -1,
+                                            175, 184, 176, -1, 183, 184, 175, -1,
+                                            176, 185, 177, -1, 177, 185, 178, -1,
+                                            184, 185, 176, -1, 185, 186, 178, -1,
+                                            178, 187, 179, -1, 179, 187, 180, -1,
+                                            186, 187, 178, -1, 187, 181, 180, -1,
+                                            191, 188, 189, -1, 191, 189, 190, -1,
+                                            193, 192, 194, -1, 193, 194, 195, -1,
+                                            196, 197, 198, -1, 198, 197, 199, -1,
+                                            201, 203, 200, -1, 200, 203, 202, -1,
+                                            204, 205, 206, -1, 206, 205, 207, -1,
+                                            209, 208, 210, -1, 209, 210, 211, -1,
+                                            215, 213, 212, -1, 215, 212, 214, -1 ]
+                                        ccw TRUE
+                                        solid FALSE
+                                        convex TRUE
+                                        creaseAngle 0
+
+                                      }
+
+                                    }
+
+                                } ]
+
+                            }
+
+                        }
+
+                    },
+                      
+                    DEF o103 Group {
+                      children 
+                        DEF o104 Transform {
+                          translation 0 0 0.2
+                          rotation 0 0 1  0
+                          scale 1 1 1
+                          scaleOrientation 0 0 1  0
+                          center 0 0 0
+
+                        }
+
+                    } ]
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
