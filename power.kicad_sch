@@ -1891,7 +1891,7 @@
     (property "Value" "1.5k" (id 1) (at 49.53 154.1779 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 45.72 152.908 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 45.72 152.908 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 47.498 152.908 0)
