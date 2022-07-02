@@ -6,8 +6,8 @@
 
   (title_block
     (title "KCH - Raspberry Pi HAT")
-    (date "2022-05-17")
-    (rev "S2")
+    (date "2022-06-28")
+    (rev "A (S2L1)")
     (company "Student Robotics")
     (comment 1 "Power Regulation & Protection")
   )
@@ -2039,6 +2039,9 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30437.pdf" (id 3) (at 265.43 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0bb83561-9b5f-4a22-8a5c-8fda15c27ac0))
+    (pin "2" (uuid b089710e-d188-47a2-a330-6283e0a43d52))
+    (pin "6" (uuid 11258c02-183a-452b-ab2f-7045fe8d2854))
     (pin "3" (uuid f4da7646-ebcf-4ea0-92dc-e5b8a0fa7c5b))
     (pin "4" (uuid 00772c6c-e723-4df6-af5a-f00b6baae499))
     (pin "5" (uuid 731a4e31-c2be-44a3-b8b5-4270a215952d))
@@ -2563,6 +2566,9 @@
     (pin "1" (uuid 6a9a0a84-4166-49b7-9b4f-b230c4c6bc01))
     (pin "2" (uuid 61cf84e6-87af-4d0c-82de-5ec2d2210b6b))
     (pin "6" (uuid 0da1252c-55db-4ba9-87b5-24e2f6977baa))
+    (pin "3" (uuid 6c31b0c5-20a6-4e4c-87df-b215209a7ae6))
+    (pin "4" (uuid 764b4e2a-3b2e-476f-9917-381f03572ed1))
+    (pin "5" (uuid 66b00b84-bf84-4690-a374-2c88541cb9e0))
   )
 
   (symbol (lib_id "Device:C") (at 177.165 66.04 0) (unit 1)

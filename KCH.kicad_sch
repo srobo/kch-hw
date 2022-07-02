@@ -6,8 +6,8 @@
 
   (title_block
     (title "KCH - Raspberry Pi HAT")
-    (date "2022-05-17")
-    (rev "S2")
+    (date "2022-06-28")
+    (rev "A (S2L1)")
     (company "Student Robotics")
   )
 
@@ -1355,6 +1355,10 @@
     (uuid f6cb720f-2f5e-4d40-94e1-44b6dc3a2f14)
   )
 
+  (text "Not populated as standard" (at 232.41 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 14c56d1a-1203-4c20-be68-a949d97aabee)
+  )
   (text "40-Pin HAT Connector" (at 45.085 78.74 0)
     (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
     (uuid 62b65300-f8a0-4792-89a0-a440dc1a92e5)
@@ -1363,7 +1367,7 @@
     (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
     (uuid 654323f8-e8e3-4292-82d8-430b9e4a1fc6)
   )
-  (text "GPIOs for each LED can be swapped during layout\nExcept GPIO7 is used for boot 20% so SPI CS function \ncan be used to drive the pin from the device \ntree.\nPWM available on GPIO12/13"
+  (text "GPIO7 is used for boot 20% so that SPI CS function \ncan be used to drive the pin from the device \ntree."
     (at 203.835 90.805 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8479f2c9-f188-49fa-a79b-213318ecf378)
