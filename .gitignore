@@ -27,8 +27,9 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!rotations.csv
 
 *.pdf
 
-jlcpcb/gerber
-jlcpcb/assembly
+pcb/jlcpcb/gerber
+pcb/jlcpcb/assembly
