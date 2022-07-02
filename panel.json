@@ -1,0 +1,21 @@
+{
+    // kikit panelize -p panel.json KCH.kicad_pcb KCH_panel.kicad_pcb
+    "layout": {
+        "type": "grid",
+        "rows": 2,
+        "cols": 1,
+        "hspace": "2mm",
+        "vspace": "2mm"
+    },
+    "tabs": {
+        "type": "fixed",
+        "width": "5mm",
+        "vcount": 3
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.5mm",
+        "spacing": "1mm",
+        "offset": "0.2mm"
+    }
+}

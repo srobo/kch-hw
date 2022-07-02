@@ -862,11 +862,6 @@
   (no_connect (at 53.975 90.17) (uuid 3a53bc5d-2476-44ba-8803-b1fb9b9fa76c))
   (no_connect (at 53.975 87.63) (uuid c2c72c14-5d4c-4654-a639-d31d1ecafff0))
 
-  (bus_entry (at 114.935 38.1) (size 2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 102ce30b-8344-4320-b6cd-c1884c31c45c)
-  )
-
   (wire (pts (xy 84.455 113.03) (xy 105.41 113.03))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 00dd3570-5054-43f1-9589-6ea2c8d8bec8)
