@@ -7,6 +7,7 @@ There is a complete, worked example at:
 https://www.raspberrypi.org/forums/viewtopic.php?t=108134
 
 ## Usage
+### On the Raspberry Pi
 
 1. Add the following line to the `/boot/config.txt` file
 ```
