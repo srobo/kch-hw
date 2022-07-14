@@ -16,6 +16,6 @@
         "type": "mousebites",
         "drill": "0.5mm",
         "spacing": "1mm",
-        "offset": "0.2mm"
+        "offset": "-0.25mm"
     }
 }
