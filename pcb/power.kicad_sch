@@ -6,7 +6,7 @@
 
   (title_block
     (title "KCH - Raspberry Pi HAT")
-    (date "2022-07-15")
+    (date "2022-07-16")
     (rev "B (S3L2)")
     (company "Student Robotics")
     (comment 1 "Power Regulation & Protection")
@@ -2400,7 +2400,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8b3d7efc-42ca-4134-b4ba-0db14eb10d72)
     (property "Reference" "U2" (id 0) (at 111.76 55.88 0))
-    (property "Value" "AP3200T" (id 1) (at 111.76 58.42 0))
+    (property "Value" "AP63200T" (id 1) (at 111.76 58.42 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (id 2) (at 111.76 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )

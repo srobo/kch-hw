@@ -6,7 +6,7 @@
 
   (title_block
     (title "KCH - Raspberry Pi HAT")
-    (date "2022-07-15")
+    (date "2022-07-16")
     (rev "B (S3L2)")
     (company "Student Robotics")
   )
@@ -3054,7 +3054,7 @@
       (reference "U1") (unit 1) (value "CAT24C32WI") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/b972d901-8d26-4685-bdf5-467543b91602/8b3d7efc-42ca-4134-b4ba-0db14eb10d72"
-      (reference "U2") (unit 1) (value "AP3200T") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+      (reference "U2") (unit 1) (value "AP63200T") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
   )
 )

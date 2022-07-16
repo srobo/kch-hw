@@ -6,7 +6,7 @@
 
   (title_block
     (title "KCH - Raspberry Pi HAT")
-    (date "2022-07-15")
+    (date "2022-07-16")
     (rev "B (S3L2)")
     (company "Student Robotics")
     (comment 1 "RGB LEDs")
