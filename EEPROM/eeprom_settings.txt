@@ -28,7 +28,7 @@ product_ver 0x0001
 vendor "Student Robotics"
 
 # ASCII product string (max 255 characters)
-product "KCH V1 Rev A"
+product "KCH V1 Rev B"
 
 ########################################################################
 # GPIO bank settings, set to nonzero to change from the default.
@@ -63,27 +63,27 @@ back_power 2
 #         ----  --------  ----
 #setgpio  2     INPUT     DEFAULT
 #setgpio  3     INPUT     DEFAULT
-setgpio  4     OUTPUT    DEFAULT
-setgpio  5     OUTPUT    DEFAULT
-setgpio  6     OUTPUT    DEFAULT
+#setgpio  4     OUTPUT    DEFAULT
+#setgpio  5     OUTPUT    DEFAULT
+#setgpio  6     OUTPUT    DEFAULT
 setgpio  7     ALT0      DEFAULT
-setgpio  8     OUTPUT    DEFAULT
-setgpio  9     OUTPUT    DEFAULT
-setgpio  10    OUTPUT    DEFAULT
-setgpio  11    OUTPUT    DEFAULT
-setgpio  12    OUTPUT    DEFAULT
-setgpio  13    OUTPUT    DEFAULT
+#setgpio  8     OUTPUT    DEFAULT
+#setgpio  9     OUTPUT    DEFAULT
+#setgpio  10    OUTPUT    DEFAULT
+#setgpio  11    OUTPUT    DEFAULT
+#setgpio  12    OUTPUT    DEFAULT
+#setgpio  13    OUTPUT    DEFAULT
 #setgpio  14    ALT0      DEFAULT
 #setgpio  15    ALT0      DEFAULT
-setgpio  16    OUTPUT    DEFAULT
-setgpio  17    OUTPUT    DEFAULT
-setgpio  18    OUTPUT    DEFAULT
-setgpio  19    OUTPUT    DEFAULT
-setgpio  20    OUTPUT    DEFAULT
-setgpio  21    OUTPUT    DEFAULT
-setgpio  22    OUTPUT    DEFAULT
-setgpio  23    OUTPUT    DEFAULT
-setgpio  24    OUTPUT    DEFAULT
-setgpio  25    OUTPUT    DEFAULT
-setgpio  26    OUTPUT    DEFAULT
-setgpio  27    OUTPUT    DEFAULT
+#setgpio  16    OUTPUT    DEFAULT
+#setgpio  17    OUTPUT    DEFAULT
+#setgpio  18    OUTPUT    DEFAULT
+#setgpio  19    OUTPUT    DEFAULT
+#setgpio  20    OUTPUT    DEFAULT
+#setgpio  21    OUTPUT    DEFAULT
+#setgpio  22    OUTPUT    DEFAULT
+#setgpio  23    OUTPUT    DEFAULT
+#setgpio  24    OUTPUT    DEFAULT
+#setgpio  25    OUTPUT    DEFAULT
+#setgpio  26    OUTPUT    DEFAULT
+#setgpio  27    OUTPUT    DEFAULT
