@@ -1,9 +1,9 @@
 #! /bin/bash
 
 while true; do
-    echo -n "Asset code: "
+    echo -n "Asset code (without sr prefix): "
     read SERIAL
-    PS3="Flash asset code '$SERIAL' to EEPROM?"
+    PS3="Flash asset code 'sr$SERIAL' to EEPROM?"
     options=("Yes" "No")
     select opt in "${options[@]}"; do
         case $opt in
@@ -14,7 +14,7 @@ while true; do
     done
 
     # Bake in serial
-    echo "$SERIAL" > serial.txt
+    echo "sr$SERIAL" > serial.txt
     ./eepmake eeprom_settings.txt hat.eep heartbeat.dtb -c serial.txt
     echo -n "Press enter to flash EEPROM"
     read
@@ -29,6 +29,8 @@ while true; do
     if ! diff -q hat.eep hat_verify.eep; then
         echo "EEPROM verification failed"
         continue
+    else
+        echo "EEPROM flashed successfully"
     fi
 
     # Test LEDs
