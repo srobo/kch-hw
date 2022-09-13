@@ -1,2 +1,5 @@
 eepdump
 eepmake
+*.eep
+heartbeat.dtb
+serial.txt
